@@ -6,10 +6,10 @@
 #include<TClonesArray.h>
 #include<TBranch.h>
 #include<TRandom3.h>
-#include"MyGen.h"
-#include"MyInt.h"
-#include"MyScatter.h"
-#include"MyIndex.h"
+#include"/path/to/MyGen.h"
+#include"/path/to/MyInt.h"
+#include"/path/to/MyScatter.h"
+#include"/path/to/MyIndex.h"
 #include<TStopwatch.h>
 
 double const Rb = 3.; //cm
