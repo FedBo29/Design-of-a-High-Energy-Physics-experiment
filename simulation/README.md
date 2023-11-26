@@ -1,7 +1,6 @@
 This is the simulation, the first part of the process.
 
-Imagine to be at Cern, the biggest laboratory in th world. LHC is a particle collider where nuclei collide aganist other nuclei
-and produce secondary particles. This is done in order to study physics fenomena.
+Imagine to be at Cern, the biggest laboratory in th world. LHC is a particle collider where nuclei collide aganist other nuclei and produce secondary particles. This is done in order to study physics fenomena.
 This is what me and Irene do in this simulation.
 
 We simulate the position of the interacting point and from that the generation of secondary particle has been done.
@@ -23,5 +22,17 @@ So, for each event i.e. a collision, for every secondary particle we pick an ang
 In a real particle detector, particles lose energy along the layers. In this assignment, the Hypothesis were:
 -high energy physics, so particles loss very few energy along the beam pipe and the two layers ( see Bethe Block law)
 -super thin layer (i.e. infinitesimal thickness ) 
+Result: we don't simulate energy loss in this MC.
+
+Crossing in the tracker layer, the particle leaves a signal into the detector. 
+That is what we want to do in this process.
+We save the information of the crossing point in the layer in a root file we called with the root class TFile ad the beginning of the main macro, Mysimulation.cpp. 
+
+In this root file we save:
+-vertex position ( we will use it in the analysis to calcutate the efficiency of the tracking system)
+-first layer hit point
+-second layer hit point
+
+
 
 
