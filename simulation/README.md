@@ -1,4 +1,4 @@
-This is the simulation, the first part of the process.
+# Simulation 
 
 Imagine to be at Cern, the biggest laboratory in th world. LHC is a particle collider where nuclei collide aganist other nuclei and produce secondary particles. This is done in order to study physics fenomena.
 This is what Irene and I do in this simulation.
