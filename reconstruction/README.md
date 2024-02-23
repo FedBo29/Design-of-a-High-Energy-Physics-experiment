@@ -6,9 +6,9 @@ Starting from the layer 1, the algorithm matches every hit with the ones of the 
 
 Now, in order to reconstruct the event, there are three main posisbilities:
 
--No tracklets in the histogram. The event is not reconstructed.
--Only one tracklet. The event is reconstructed with that position.
--multiple tracklets.
+1. No tracklets in the histogram. The event is not reconstructed.
+2. Only one tracklet. The event is reconstructed with that position.
+3. multiple tracklets.
 
 The multiple trackelts represents the most difficult case, here we must create an algorithm to select the vertex position.
 We find the bins with the highest number of entries and we save the index in a vector. With this list, we run those bins and we count the number of entries until we find a hole in the bin. The, the weighted average has been calculated for the group of bins. Here, we find a centroid and, from this position, the calculate the average of point next to 1.5 mm from it.
