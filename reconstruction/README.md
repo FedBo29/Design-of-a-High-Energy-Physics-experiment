@@ -6,8 +6,8 @@ Starting from the layer 1, the algorithm matches every hit with the ones of the 
 
 Now, in order to reconstruct the event, there are three main posisbilities:
 
-1. No tracklets in the histogram. The event is not reconstructed.
-2. Only one tracklet. The event is reconstructed with that position.
+1. No tracklets in the histogram: the event is not reconstructed.
+2. Only one tracklet: the event is reconstructed with that position.
 3. multiple tracklets.
 
 The multiple trackelts represents the most difficult case, here we must create an algorithm to select the vertex position.
