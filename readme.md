@@ -9,9 +9,9 @@ After the simulation and the reconstruction, the tracking system has been analys
 The project has been implemented in C++ and launched with ROOT software by Cern. This software was thought to Nuclear Physics topics, but today it is used in several disciplines. 
 The entire code is object-oriented with the creation of some custom classes used in the main macros. 
 
-So, the work is divided into:
+Hence, the work is divided into:
 1) Simulation
 2) Reconstruction
 3) Analysis
 
-All the work has been done by Federico Bonaldo and Irene Amateis for the exam in Numeric Analysis and Simulation Technology in December 2022. 
+The entire work has been done by Federico Bonaldo and Irene Amateis for the exam in Numeric Analysis and Simulation Technology in December 2022. 
