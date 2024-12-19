@@ -10,8 +10,45 @@ The project has been implemented in C++ and launched with ROOT software by Cern.
 The entire code is object-oriented with the creation of some custom classes used in the main macros. 
 
 Hence, the work is divided into:
-1) Simulation
-2) Reconstruction
-3) Analysis
+
+```
+TRACKING - DETECTOR 
+├─ Simulation
+│  ├─ src
+│  │  ├─ MyGex.cxx
+│  │  ├─ MyIndex.cxx
+│  │  ├─ MyInt.cxx
+│  │  └─ MyScatter.cxx
+│  ├─ include
+│  │  ├─ MyGen.h
+│  │  ├─ MyIndex.h
+│  │  ├─ Myint.h
+│  │  ├─ MyScatter.h
+│  │  └─ heta2.root
+│  ├─ MySimulation.cpp
+│  ├─ compilemyclass.C
+│  └─ README.md
+├─ Reconstruction
+│  ├─ src
+│  │  ├─ MyIndex.cxx
+│  │  └─ MyRec.cxx
+│  ├─ include
+│  │  ├─ MyIndex.h
+│  │  └─ MyRec.h
+│  ├─ MyReconstruction.cpp
+│  ├─ compilemyclass.C
+│  └─ README.md
+├─ Analysis
+│  ├─  MyGraph.cpp
+│  ├─  README.md
+│  ├─ analisiDistro.cpp
+│  ├─ analisiMultUni.cpp
+│  ├─ analisiZUni.cpp
+│  ├─ readGraph.cpp
+│  └─ residui.cpp
+├─ Simulazione_di_un_rivelatore_di_vertice.pdf
+└─ readme.md
+```
+
 
 The entire work has been done by Federico Bonaldo and Irene Amateis for the exam in Numeric Analysis and Simulation Technology in December 2022. 
