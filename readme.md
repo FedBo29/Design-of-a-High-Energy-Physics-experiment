@@ -9,6 +9,8 @@ After the simulation and the reconstruction, the tracking system has been analys
 The project has been implemented in C++ and launched with ROOT software by Cern. This software was thought to Nuclear Physics topics, but today it is used in several disciplines. 
 The entire code is object-oriented with the creation of some custom classes used in the main macros. 
 
+![immagine](https://github.com/user-attachments/assets/b3841764-74ff-4970-929a-b5cf47040b8a)
+
 Hence, the work is divided into:
 
 ```
@@ -49,6 +51,4 @@ TRACKING - DETECTOR
 ├─ Simulazione_di_un_rivelatore_di_vertice.pdf
 └─ readme.md
 ```
-![immagine](https://github.com/user-attachments/assets/b3841764-74ff-4970-929a-b5cf47040b8a)
-
 The entire work has been done by Federico Bonaldo and Irene Amateis for the exam in Numeric Analysis and Simulation Technology in December 2022. 
