@@ -9,6 +9,7 @@ After the simulation and the reconstruction, the tracking system has been analys
 The project has been implemented in C++ and launched with ROOT software by Cern. This software was thought to Nuclear Physics topics, but today it is used in several disciplines. 
 The entire code is object-oriented with the creation of some custom classes used in the main macros. 
 
+![immagine](https://github.com/user-attachments/assets/8622f673-5599-4df0-98f5-f590fde5903c)
 ![immagine](https://github.com/user-attachments/assets/b3841764-74ff-4970-929a-b5cf47040b8a)
 
 Hence, the work is divided into:
