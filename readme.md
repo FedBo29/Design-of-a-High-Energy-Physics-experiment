@@ -49,6 +49,9 @@ TRACKING - DETECTOR
 ├─ Simulazione_di_un_rivelatore_di_vertice.pdf
 └─ readme.md
 ```
+![immagine](https://github.com/user-attachments/assets/6020f113-99ac-4529-8e37-1c5953cea51c)
+
+![immagine](https://github.com/user-attachments/assets/cae70d1e-6571-4e09-a11a-b98a9981bc0a)
 
 
 The entire work has been done by Federico Bonaldo and Irene Amateis for the exam in Numeric Analysis and Simulation Technology in December 2022. 
