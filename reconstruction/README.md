@@ -13,3 +13,5 @@ Now, in order to reconstruct the event, there are three main posisbilities:
 The multiple trackelts represents the most difficult case, here we must create an algorithm to select the vertex position.
 We find the bins with the highest number of entries and we save the index in a vector. With this list, we run those bins and we count the number of entries until we find a hole in the bin. The, the weighted average has been calculated for the group of bins. Here, we find a centroid and, from this position, the calculate the average of point next to 1.5 mm from it.
 The value will represent the z vertex position.
+
+![immagine](https://github.com/user-attachments/assets/0e38faaf-00f9-46cf-963a-3398ad33a166)
