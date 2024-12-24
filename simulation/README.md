@@ -21,3 +21,6 @@ In this root file we save: -vertex position ( we will use it in the analysis to 
 Hits point have a crucial task: detect the particle. The hit point is not the position of the particles that has crossed, but the position the tracking layer has detected. The difference is the "smearing effect" i.e. the gaussian distribution around the "real" hit point on the tracking layer: it is caused by the pixel dimension of the tracking layers. So for every interacting point there will be the smearing effect.
 
 In addiction, background ( e.g. Cosmic rays) has been implemented with a gaussian distribution.
+
+![immagine](https://github.com/user-attachments/assets/f9d41310-c733-452e-bf22-5c780370621e)
+
