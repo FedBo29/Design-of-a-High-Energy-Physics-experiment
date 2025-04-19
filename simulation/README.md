@@ -20,7 +20,10 @@ Result: we don't take care about energy loss in this MC, i.e. we don't simulate 
 
 Crossing in the tracker layer, the particle leaves a signal into the detector. That is what we want to do in this process. We save the information of the crossing point in the layer in a root file we called with the root class TFile ad the beginning of the main macro, Mysimulation.cpp.
 
-In this root file we save: -vertex position ( we will use it in the analysis to calcutate the efficiency of the tracking system) -first layer hit point -second layer hit point
+In this root file we save:
+- vertex position ( we will use it in the analysis to calcutate the efficiency of the tracking system)
+- first layer hit point
+- second layer hit point
 
 Hits point have a crucial task: detect the particle. The hit point is not the position of the particles that has crossed, but the position the tracking layer has detected. The difference is the "smearing effect" i.e. the gaussian distribution around the "real" hit point on the tracking layer: it is caused by the pixel dimension of the tracking layers. So for every interacting point there will be the smearing effect.
 
