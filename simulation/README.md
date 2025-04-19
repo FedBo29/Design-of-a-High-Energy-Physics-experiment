@@ -14,7 +14,8 @@ In the same root file there is also a second histogram, "heta2". It is the Angle
 
 In a real particle detector, particles lose energy along the layers. In this assignment, the Hypothesis were:
 - high energy physics, so particles loss very few energy along the beam pipe and the two layers ( see Bethe Block law) 
-- very thin layer (i.e. infinitesimal thickness ) 
+- very thin layer (i.e. infinitesimal thickness )
+  
 Result: we don't take care about energy loss in this MC, i.e. we don't simulate energy loss.
 
 Crossing in the tracker layer, the particle leaves a signal into the detector. That is what we want to do in this process. We save the information of the crossing point in the layer in a root file we called with the root class TFile ad the beginning of the main macro, Mysimulation.cpp.
